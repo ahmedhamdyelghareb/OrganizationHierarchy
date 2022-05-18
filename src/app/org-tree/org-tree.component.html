@@ -1,0 +1,12 @@
+<div class="tabStyle">
+    <p class="titel">Organization Hierarchy</p>
+    <p-organizationChart [value]="data">
+        <ng-template let-node pTemplate="default">
+            <div class="node-content">
+                <img src="{{node.imagePath}}" width="75" class="image">
+            </div>
+            <div class="node-header name">{{node.label}}</div>
+            <div class="code">{{returnCode(node.code)}}</div>
+        </ng-template>
+    </p-organizationChart>
+</div>

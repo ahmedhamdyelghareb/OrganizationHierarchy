@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.tabStyle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: ghostwhite;
+}
+
+.titel {
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.code {
+    color: red;
+}
+
+.name {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.image{
+    border-radius:50%;
+    border: 1px solid red;
+}
